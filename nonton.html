@@ -3,36 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Content</title>
+    <title>Nonton TV - GCIKARTV</title>
     <style>
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
-            overflow: hidden; /* Menghilangkan scrollbar ganda */
-        }
-        .wrapper {
             width: 100%;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
+            overflow: hidden;
         }
         iframe {
-            flex-grow: 1;
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
+            height: 100%;
             border: none;
         }
     </style>
 </head>
 <body>
 
-    <div class="wrapper">
-        <iframe 
-            src="http://gcikartv-website.diskon.cloud/nonton/index.php" 
-            sandbox="allow-forms allow-scripts allow-same-origin"
-            allowfullscreen>
-        </iframe>
-    </div>
+    <iframe 
+        src="http://gcikartv-website.diskon.cloud/nonton/index.php" 
+        allow="autoplay; encrypted-media; fullscreen" 
+        allowfullscreen>
+    </iframe>
 
 </body>
 </html>
