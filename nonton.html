@@ -2,34 +2,37 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
+    <title>GCIKAR TV Player</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GCIKARTV - versi website</title>
-    
-    <script type="module" src="https://unpkg.com/x-frame-bypass"></script>
-    <script src="https://unpkg.com/@ungap/custom-elements-builtin"></script>
-
     <style>
-        body, html {
+        body {
             margin: 0;
-            padding: 0;
-            height: 100%;
-            background-color: #000;
-            overflow: hidden;
+            background: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
         }
-        /* Mengatur iframe agar memenuhi layar */
+        header {
+            padding: 10px;
+            background: #111;
+            text-align: center;
+            font-weight: bold;
+        }
         iframe {
             width: 100%;
-            height: 100vh;
+            height: calc(100vh - 50px);
             border: none;
         }
     </style>
 </head>
 <body>
 
-    <iframe 
-        is="x-frame-bypass" 
-        src="http://gcikartv-website.diskon.cloud/nonton/index.php">
-    </iframe>
+<header>GCIKAR TV</header>
+
+<iframe 
+    src="http://gcikartv-website.diskon.cloud/a"
+    allowfullscreen>
+</iframe>
 
 </body>
 </html>
+
