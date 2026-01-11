@@ -5,39 +5,61 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GCIKAR TV</title>
 <style>
-html, body {
-    margin: 0;
-    padding: 0;
-    background: #000;
-    color: #fff;
-    width: 100%;
-    height: 100%;
+html,body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    color:#fff;
 }
-#container {
-    width: 100%;
-    height: 100%;
+#app{
+    width:100%;
+    height:100%;
 }
 </style>
 </head>
 <body>
 
-<div id="container">Loading...</div>
+<div id="app">Loading...</div>
 
 <script>
-const target = "http://gcikartv-website.diskon.cloud/a";
-const proxy = "https://api.allorigins.win/raw?url=" + encodeURIComponent(target);
+const base = "http://gcikartv-website.diskon.cloud";
+const proxy = url =>
+  "https://api.allorigins.win/raw?url=" + encodeURIComponent(url);
 
-fetch(proxy)
-  .then(res => res.text())
-  .then(html => {
-      document.getElementById("container").innerHTML = html;
-  })
-  .catch(err => {
-      document.getElementById("container").innerHTML = "Gagal load konten";
-  });
+function loadPage(url){
+    fetch(proxy(url))
+    .then(r => r.text())
+    .then(html => {
+        document.getElementById("app").innerHTML = html;
+        interceptLinks();
+    })
+    .catch(()=>{
+        document.getElementById("app").innerHTML = "Gagal load halaman";
+    });
+}
+
+function interceptLinks(){
+    document.querySelectorAll("a[href]").forEach(a=>{
+        a.addEventListener("click",e=>{
+            e.preventDefault();
+            let href = a.getAttribute("href");
+            if(!href) return;
+
+            // normalisasi URL
+            if(href.startsWith("/")) href = base + href;
+            if(!href.startsWith("http")) return;
+
+            loadPage(href);
+        });
+    });
+}
+
+// load awal
+loadPage(base + "/a");
 </script>
 
 </body>
 </html>
-
 
