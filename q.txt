@@ -1,0 +1,2 @@
+here#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/pryR8QQC/20260203-062726.jpg" group-title="Aplikasi Ini Hidup Karna Donasi",DONASI PAKE QRIS (Klik Di Sini)
+https://github.com/lusianaputri/Gcikar-TV/raw/refs/heads/main/VID-20260203-WA0000.mp4
