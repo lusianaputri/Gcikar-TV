@@ -1,3 +1,6 @@
+#EXTINF:-1 xui-id="3" tvg-id="Indosiar.HD.id" tvg-name="INDOSIAR HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRey1fV21Mbmyci5fqExsiU_tyg9DqFkU8G7llxnP0EHQ&s=10" group-title="Indonesia u17 VS China U17",Indonesia u17 VS China U17
+https://tv.ngebutz.my.id:443/live/2359819BA55280038B6D0B1419EAFD37/3.ts
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/pryR8QQC/20260203-062726.jpg" group-title="Aplikasi Ini Hidup Karna Donasi",* DONASI PAKE QRIS (Klik Di Sini)
 https://github.com/lusianaputri/Gcikar-TV/raw/refs/heads/main/VID-20260203-WA0000.mp4
 
