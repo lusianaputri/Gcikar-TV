@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memuat Stream...</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="statusMessage">Menghubungkan ke stream...</h2>
+
+    <script>
+        async function loadStream() {
+            // 1. Ambil parameter '?id=' dari URL saat ini
+            const urlParams = new URLSearchParams(window.location.search);
+            const id = urlParams.get('id');
+            const statusText = document.getElementById('statusMessage');
+
+            if (!id) {
+                statusText.innerText = 'Error: ID tidak ditemukan di URL.';
+                return;
+            }
+
+            try {
+                // 2. Fetch data dari API TVRI
+                const response = await fetch(`https://api.tvri.live/api/match.php?id=${id}`);
+                const data = await response.json();
+
+                // 3. Ekstrak stream_url dari JSON
+                const streamUrl = data?.data?.stream_url;
+
+                if (!streamUrl) {
+                    statusText.innerText = 'Stream not found';
+                    return;
+                }
+
+                // 4. Redirect ke proxy dengan URL yang sudah di-encode
+                statusText.innerText = 'Membuka stream...';
+                const proxyUrl = 'https://bintangstreaming.my.id/0/proxy.php?url=' + encodeURIComponent(streamUrl);
+                
+                // Gunakan location.replace agar user tidak bisa back ke halaman blank ini
+                window.location.replace(proxyUrl);
+
+            } catch (error) {
+                console.error('Fetch error:', error);
+                statusText.innerText = 'Terjadi kesalahan saat memuat API.';
+            }
+        }
+
+        // Jalankan fungsi saat halaman dimuat
+        loadStream();
+    </script>
+</body>
+</html>
