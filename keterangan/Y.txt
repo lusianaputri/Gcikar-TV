@@ -1,0 +1,8 @@
+#EXTINF:-1 group-title="🔷INFO SOSMED"  tvg-logo="https://i.ibb.co.com/99dT7mHT/20260705-101853.jpg", GRUP TELE: @gvision_group
+https://github.com/lusianaputri/Gcikar-TV/raw/refs/heads/main/keterangan/video_360385.mp4
+
+#EXTINF:-1 group-title="🔷INFO SOSMED"  tvg-logo="https://i.ibb.co.com/Kj9q233x/20260705-134003.jpg", AKUN FB BARU: Bayu Stecu Mark ASW
+https://github.com/lusianaputri/Gcikar-TV/raw/refs/heads/main/keterangan/video_456852.mp4
+
+#EXTINF:-1 group-title="🔷INFO SOSMED"  tvg-logo="https://i.ibb.co.com/NgF1sRXG/20260705-134043.jpg", Grup FB BARU: Berbagi Aplikasi Android TV Gratis
+https://github.com/lusianaputri/Gcikar-TV/raw/refs/heads/main/keterangan/video_976679.mp4
