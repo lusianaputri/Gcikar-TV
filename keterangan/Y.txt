@@ -1,3 +1,10 @@
+#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBiAsy1unTVYZl5NuExg_xvz6U4Tn-X5VZA0SBADoXsQ&s=10" group-title="🔷INFO SOSMED",* DONASI PAKE DANA
+https://github.com/lusianaputri/ularliermutarmuter/raw/refs/heads/main/VID-20260802-WA0007.mp4
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/Xr7pbm5k/20260802-044420.jpg" group-title="🔷INFO SOSMED",* DANA 0811-2003-7329
+https://github.com/lusianaputri/ularliermutarmuter/raw/refs/heads/main/VID-20260802-WA0007.mp4
+
+
 #EXTINF:-1 group-title="🔷INFO SOSMED"  tvg-logo="https://i.ibb.co.com/99dT7mHT/20260705-101853.jpg", GRUP TELE: @gvision_group
 https://github.com/lusianaputri/Gcikar-TV/raw/refs/heads/main/keterangan/video_360385.mp4
 
