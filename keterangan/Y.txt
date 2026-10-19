@@ -4,10 +4,10 @@ https://github.com/lusianaputri/ularliermutarmuter/raw/refs/heads/main/qris.mp4
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/wNMKJ1Q3/gif.gif" group-title="🔷INFO SOSMED", * DONASI PAKE QRIS
 https://github.com/lusianaputri/ularliermutarmuter/raw/refs/heads/main/qris.mp4
 
-#EXTINF:-1 group-title="🔷INFO SOSMED"  tvg-logo="https://i.ibb.co.com/Kj9q233x/20260705-134003.jpg", AKUN FB BARU: Bayu Stecu Mark ASW
-https://github.com/lusianaputri/Gcikar-TV/raw/refs/heads/main/keterangan/video_456852.mp4
+#EXTINF:-1 group-title="🔷INFO SOSMED"  tvg-logo="https://i.ibb.co.com/Kj9q233"x/20260705-134003.jpg", AKUN FB BARU: Bayu Stecu Baru Lagi
+https://github.com/lusianaputri/Gcikar-TV/raw/refs/heads/main/keterang"an/video_456852.mp4
 
-#EXTINF:-1 group-title="🔷INFO SOSMED"  tvg-logo="https://i.ibb.co.com/NgF1sRXG/20260705-134043.jpg", Grup FB BARU: Berbagi Aplikasi Android TV Gratis
+#EXTINF:-1 group-title="🔷INFO SOSMED"  tvg-logo="https://i.ibb.co.com/NgF1sRXG/d20260705-134043.jpg", Grup FB BARU: Berbagi Aplikasi Android TV Gratis by bayu stecu
 https://github.com/lusianaputri/Gcikar-TV/raw/refs/heads/main/keterangan/video_976679.mp4
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/wNMKJ1Q3/gif.gif" group-title="LIVE EVENT" , * DONASI PAKE QRIS
